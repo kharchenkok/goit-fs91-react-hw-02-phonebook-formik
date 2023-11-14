@@ -19,7 +19,6 @@ class App extends Component {
     ],
     filter: '',
   };
-
   addContact = ({ name, number }) => {
     const contact = {
       id: shortid.generate(),
@@ -30,7 +29,6 @@ class App extends Component {
       contacts: [contact, ...contacts],
     }));
   };
-
   deleteContact = contactId => {
     this.setState(prevState => ({
       contacts: prevState.contacts.filter(contact => contact.id !== contactId),
@@ -40,7 +38,6 @@ class App extends Component {
   changeFilter = e => {
     this.setState({ filter: e.currentTarget.value });
   };
-
   getVisibleContacts = () => {
     const { contacts, filter } = this.state;
     const normalizedFilter = filter.toLowerCase();
@@ -54,7 +51,6 @@ class App extends Component {
       contact => contact.name.toLowerCase() === name.toLowerCase()
     );
   };
-
   render() {
     const visibleContacts = this.getVisibleContacts();
     return (

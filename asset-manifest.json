@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goit-fs91-react-hw-02-phonebook-formik/static/css/main.c0ba0bf1.css",
+    "main.js": "/goit-fs91-react-hw-02-phonebook-formik/static/js/main.ec33195d.js",
+    "index.html": "/goit-fs91-react-hw-02-phonebook-formik/index.html",
+    "main.c0ba0bf1.css.map": "/goit-fs91-react-hw-02-phonebook-formik/static/css/main.c0ba0bf1.css.map",
+    "main.ec33195d.js.map": "/goit-fs91-react-hw-02-phonebook-formik/static/js/main.ec33195d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0ba0bf1.css",
+    "static/js/main.ec33195d.js"
+  ]
+}

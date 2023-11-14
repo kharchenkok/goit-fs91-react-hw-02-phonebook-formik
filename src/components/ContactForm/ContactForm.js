@@ -30,7 +30,6 @@ const ContactForm = ({ isContactExist, onFormSubmit }) => {
       showWarning(`${name} is already in contacts!`);
       return;
     }
-
     onFormSubmit(values);
     resetForm();
   };
